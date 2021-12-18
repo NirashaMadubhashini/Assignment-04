@@ -9,6 +9,8 @@
         section {
             height: 700px;
             border: 2px solid black;
+            scroll-snap-type: y;
+            transition: 1s;
         }
 
         section:nth-child(1) {
@@ -16,7 +18,7 @@
         }
 
         section > h1:nth-child(1) {
-           position: relative;
+            position: relative;
             bottom: 21px;
             height: 55px;
             background-color: #FE351F;
@@ -36,13 +38,15 @@
         section:nth-child(2) {
             background-color: #5CB6FE;
         }
-        section:nth-child(2) >h1 {
+
+        section:nth-child(2) > h1 {
             position: relative;
             bottom: 21px;
             height: 55px;
             background-color: #00427D;
             color: white;
         }
+
         section:nth-child(2) > p {
             color: black;
             font-size: 100px;
@@ -55,13 +59,15 @@
         section:nth-child(3) {
             background-color: #58534B;
         }
-        section:nth-child(3) >h1 {
+
+        section:nth-child(3) > h1 {
             position: relative;
             bottom: 21px;
             height: 55px;
             color: white;
             background-color: #292925;
         }
+
         section:nth-child(3) > p {
             color: black;
             font-size: 100px;
@@ -74,13 +80,15 @@
         section:nth-child(4) {
             background-color: #EB3C28;
         }
-        section:nth-child(4) >h1 {
+
+        section:nth-child(4) > h1 {
             position: relative;
             bottom: 21px;
             height: 55px;
             color: white;
             background-color: #7C322A;
         }
+
         section:nth-child(4) > p {
             color: black;
             font-size: 100px;
