@@ -10,7 +10,10 @@
             height: 700px;
             border: 2px solid black;
             scroll-snap-type: y;
-            transition: 1s;
+            animation-name: testOne;
+            animation-duration: 5s;
+            animation-iteration-count:1;
+            transition: all;
         }
 
         section:nth-child(1) {
@@ -96,6 +99,13 @@
             left: 650px;
             top: 2300px;
             font-weight: bold;
+        }
+
+        @keyframes testOne {
+            from {
+                transform: translateY(200px);
+            }
+
         }
     </style>
 </head>
